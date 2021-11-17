@@ -1,0 +1,63 @@
+/* diagonal background code from https://codepen.io/amite/pen/rPQWaj */
+
+body{
+    background-image: -webkit-linear-gradient(30deg,  #6727fe 50%, #4c0ae4 50%);
+    min-height: 659px;
+}
+
+#game-content-container{
+    width: 905px;
+    height: 517.5px;
+    background-color:#f9d9df;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    border-radius: 30px;
+    border-style: outset;
+    margin-left: 235px;
+    margin-top: 50px;
+    text-align: center;
+    font-size: 30px;
+}
+
+#question-container {
+    width: 800px;
+    height: 130px;
+    background-color:#f7f7f7;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    border-radius: 30px;
+    border-style: outset;
+    margin-left: 11px;
+    margin-top: 50px;
+    text-align: center;
+    font-size: 30px;
+    padding-top: 15px;
+    
+}
+/* #user-input:required{
+    border-color: #800000;
+} */
+
+#user-input{
+    padding-bottom: 10px;
+    margin-top: 25px;
+    font-size: larger;
+    
+}
+
+
+#submit-answer {
+    background-color: #6727fe ;
+    text-align: center;
+    padding: 8px 160px;
+    font-size:larger;
+    color: whitesmoke;
+    font-family: 'Open Sans', sans-serif;
+    border-style:outset;
+    border-radius: 10px;
+    margin-top: 30px;
+    letter-spacing: 4px;
+    margin-bottom: 45px;
+}
